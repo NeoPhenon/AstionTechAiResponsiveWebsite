@@ -1,0 +1,195 @@
+* , *::before , *::after {
+    box-sizing:border-box;
+}
+nav .header-text{
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+    margin-top:-30px;
+}
+nav{
+    padding :30px;  
+}
+.navbar-nav{
+    margin:0 auto;
+}
+.navbar-nav a{
+    color:black;
+    margin-left:20px;
+}
+.imgOne{
+    background-image: url(AstionTechImgs/techImgTwo.jpg);
+    width: 100%;
+    height: 500px;
+    margin-top:30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.sectionOne h2{
+    color:hsl(210, 100%, 37%);
+    font-weight:bold;
+    text-align:center;
+    padding:300px;
+    text-shadow: 1px 2px 2px rgb(9, 31, 160);
+}
+.sectionTwo h2,  .sectionThree h2 {
+    font-weight:bold;
+    font-size:2rem;
+}
+.sectionThree img{
+    display:block;
+    width:500px;
+    height:300px;
+}
+.sectionFour .midImg{
+    background-image: url(AstionTechImgs/techImgFour.jpg);
+    width:100%;
+    height:500px;
+    margin-top:50px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.midImgText{
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size:2rem;
+    color:hsl(244, 100%, 32%);
+    text-shadow: 1px 2px 2px hsl(0, 7%, 21%);
+    padding-top:200px;
+}
+.midImgBtn{
+    margin-top:10px;
+    margin-left:500px;
+    font-weight:bold;
+    box-shadow: 1px 1px 1px 1px rgb(143, 137, 137);
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.6s ease-in-out;
+}
+.midImgBtn:hover{
+    background-color: blue;
+    color:white;
+    border-color: black;
+}
+.midImgBtn:active{
+    background-color: hsl(0, 58%, 6%);
+    box-shadow: 3px 3px 3px 3px black;
+}
+.sectionFiveText{
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.sectionFive img{
+    width:700px;
+    height:400px;
+    border-radius: 24px;
+}
+.sectionSix{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.sectionSeven h2{
+    font-weight:bold;
+    display:inline-block;
+    color:hsl(239, 100%, 40%);
+    width:500px;
+    font-size:30px;
+    text-shadow: 1px 1px 1px hsl(0, 12%, 15%);
+    margin-left:50px;
+    margin-top:200px;
+}
+.sectionSix img{
+    height:100px;
+    width:100px;
+    margin-left:100px;
+}
+.sectionSix .card{
+    width:500px;
+    height:500px;
+    margin-bottom:100px;
+    margin:0 auto;
+    border:1px solid hsl(100, 20%, 91%);
+    border-radius:30px;
+    box-shadow: 1px 2px 4px 1px rgb(212, 205, 205);
+}
+.sectionSix .card-header h2{
+    font-weight:bold;
+    font-size:3rem;
+    font-family:monospace;
+}
+.sectionSix .card-header{
+    border-radius:30px;
+    background-color:transparent;
+    border:none;
+}
+.sectionSix .card-footer{
+    border-radius: 30px;
+    background-color:transparent;
+    border:none;
+}
+.sectionSix .card-text{
+    font-weight:bold;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    margin-top:-30px;
+}
+.sectionSix .card-text::selection{
+    background-color:hsl(70, 98%, 67%);
+    color:white;
+}
+.sectionSeven .col-One img , .sectionSeven .col-Two img , .sectionSeven .col-Three img{
+    width:300px;
+    height:300px;
+}
+.sectionSeven .card-body{
+    margin-left:50px;
+}
+ .sectionSeven .btn{
+    margin-left:30px;
+    cursor:pointer;
+}
+.sectionSeven h6{
+    width:500px;
+}
+.indentity-col{
+    margin-top:20px;
+}
+ 
+@media screen and (max-width:576px ){
+    .midImgBtn{
+        margin-top:10px;
+        margin-left:150px;
+    }
+    .sectionSeven .card{
+        margin-left:100px;
+    }
+    .indentity-col{
+        margin-left:80px;
+        margin-top:10px;
+    }
+    .sectionSix img{
+        margin-left:100px;
+        position:absolute;
+        margin-top: -90px;
+    }
+}
+ /** particularly for phone screen *//
+@media screen and (max-width:575px){
+    .sectionOne h2{
+        position:absolute;
+        width:70rem;
+        margin-top:-100px;
+        margin-left:-20rem;
+    }
+}
+/** marked down precisely between laptop *//
+@media screen and (min-width:576px) and (max-width:991px){
+    .sectionOne h2{
+        position:absolute;
+        width:70rem;
+        margin-left:-15rem;
+    }
+}
